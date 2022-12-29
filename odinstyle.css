@@ -1,0 +1,115 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu {
+    height: 100px;
+    background-color: #B2D6FF;    /* Medium blue */
+  
+  .sidebar {
+    float: left;                  /* Add this */
+    width: 200px;
+    height: 300px;
+    background-color: #F09A9D;
+  }
+  .page {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: #EAEDF0;
+  }
+  .footer {
+    clear: both;            /* Add this */
+    height: 200px;
+    background-color: #D6E9FE;
+  }
+  .avatar {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #326eb2;
+  }
+  
+  .column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;    /* Medium blue */
+  } */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+  }
+  .links {
+    border: 1px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+  .menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+  }
+  .menu-container {
+    /* ... */
+    display: flex;
+  }
+  .photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;  /* <--- Really freaking cool! */
+  align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1200px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .example {
+    display: flex;
+    justify-content: space-around;
+    
+    width: 800px;
+    margin: 50px 0;
+    background-color: #D6E9FE;
+  }
+  
+  .item img {
+    display: block;
+  }
+  .item-relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
