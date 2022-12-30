@@ -1,5 +1,5 @@
 h1 {
-    text-align:center;
+    text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     font-weight: bold;
@@ -11,15 +11,17 @@ body {
     /* background: linear-gradient(180deg, #FFEEEE, #DDEFBB); */
     height: 100vh;
     background-image: url('images/brownsolid.jpg');
-    
+
 }
 
 .block {
     display: block;
     margin:auto;
-    border-radius: 25px;
     width: min(70%, 500px);
-    box-shadow: 0px 0px 20px;
+    border-radius: 70px;
+    background: #e1d0d0;
+    box-shadow:  2px 2px 10px #ac9c9c,
+    -2px -2px 10px #918383;
 }
 
 #contents {
@@ -37,20 +39,22 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(131, 35, 35);
     text-decoration: none;
 }
+
 nav {
-  text-align: center; 
-  font-size: 18px; 
-  font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
 }
-  a:hover {
+
+a:hover {
     text-decoration: underline;
-    color: rgba(0, 0, 0, 0.479);
-
+    color: rgba(14, 6, 6, 0.479);
 
 }
-.navcolor {
+
+.navcolor a {
     color: rgb(238, 238, 242);
 }
