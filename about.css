@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .frame {
   /* width: 900px; */
   margin: 0 auto;
@@ -66,7 +72,79 @@ a.on {
   text-decoration: underline;
 }
 
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+  padding: 50px;
+  background: #D6E9FE;
+}
+.menu {
+  margin-top: 15px;
+}
 
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+.features-menu {
+  display: flex;
+  flex-direction: column;
+  background: #B2D6FF;
+  border-radius: 5px;
+  padding-top: 60px;
+}
+
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+
+  padding: 0 40px 10px 20px;
+  margin: 10px;
+}
+
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+.features-menu {
+display: flex;
+flex-direction: column;
+background: #B2D6FF;
+border-radius: 5px;
+padding-top: 60px;
+
+position: absolute;      /* Add these */
+top: -25px;
+left: -30px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown > span {
+  z-index: 2;
+  position: relative;  /* This is important! */
+  cursor: pointer;
+}
+
+.features-menu {
+  /* ... */
+  z-index: 1;
+}
+.dropdown:hover .features-menu {    /* This used to be `.features-menu` */
+  display: flex;                    /* Leave everything else alone */
+  flex-direction: column;
+  background: #B2D6FF;
+  /* ... */
+}
+.features-menu {                    /* Add this as a new rule */
+  display: none;
+}
 .framewithin {
   position: absolute;
   transform: translate(10%, 11%);
@@ -82,13 +160,13 @@ a.on {
 }
 
 .frame {
-  position: absolute;
+  position: relative;
   /* top: 78%;
     
     left: 20%; */
-  width: 800px;
+  /* width: 800px;
   clear: both;
-  background-position: center;
+  background-position: center; */
   justify-content: center;
   height: 420px;
   /* margin-top: -200px;
@@ -122,8 +200,8 @@ a.on {
 
 .img {
   position: absolute;
-  top: -78px;
-  left: 42%;
+  /* top: -78px;
+  left: 42%; */
   width: 55px;
   height: 55px;
   background-position: center;
@@ -134,8 +212,8 @@ a.on {
 
 body {
   margin: 0;
-  height: 100vh;
-  display: flex;
+  /* height: 100vh;
+  display: flex; */
   align-items: center;
   justify-content: center;
   font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
