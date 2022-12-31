@@ -58,7 +58,7 @@ h1 {
 nav,
 footer {
     clear: both;
-    color: #d29797;
+    color: #de6581e6;
     background-color: #ede6d8;
     height: 32%;
 }
@@ -81,15 +81,16 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #000000;
+    color: #d96363;
     text-decoration: underline;
 }
 nav li a:active:visited {
-    color: red;
+    color: rgb(136, 64, 64);
 }
 
 nav li a.current {
-    color: #f87d7d;
+    color:solid #d27878;
+    text-decoration: underline;
 }
 
 section.courses {
@@ -148,7 +149,7 @@ aside section a:hover {
 }
 
 a {
-    color: #eb8d8d;
+    color:  #de6581;
     font-size: 15px;
     padding: 2px;
     text-decoration: none;
