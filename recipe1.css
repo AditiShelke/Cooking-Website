@@ -21,7 +21,7 @@ body {
     margin:auto;
     width: min(70%, 500px);
     border-radius: 70px;
-    background: #e1d0d0;
+    background: #cea4a4;
     box-shadow:  2px 2px 10px #ac9c9c,
     -2px -2px 10px #918383;
 }
@@ -54,7 +54,7 @@ nav {
 
 a:hover {
     text-decoration: underline;
-    color: rgba(14, 6, 6, 0.479);
+    color: rgba(112, 50, 50, 0.911);
 
 }
 

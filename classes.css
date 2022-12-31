@@ -1,10 +1,12 @@
-
+@import url("tables.css"); 
     body {
+        margin: 0 auto;
     font-family:'Copse',Arial, Verdana, sans-serif;
     font-size: 90%;
     color: rgb(52, 34, 34);
         background-image: linear-gradient(rgba(215,208,196,255),rgba(191,163,153,255),rgba(102,68,79,255));
     /* background-color: #e38b8bd6; */
+    background-image:gradient(linear, 0% 0%, 0% 100%, from(#926c6c78), to(#6c4c4c));
 }
     li {
     /* list-style-image: url("images/image.png"); */
@@ -104,3 +106,15 @@
     width: 310px; 
     text-align: right;}
   
+    blockquote {
+        float: right;
+        /* width: 275px;
+        font-size: 130%;
+        font-style: italic;
+        font-family: Georgia, Times, serif;
+        margin: 0px 0px 10px 10px;
+        padding: 10px; */
+     
+padding: 5px;
+        border-top: 1px solid #665544;
+        border-bottom: 1px solid #665544;}
