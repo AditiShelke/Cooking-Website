@@ -2,6 +2,13 @@
 
 This repository contains the source code for a website that allows users to browse cooking classes and recipes. The site includes an about page that provides information about the website.
 
+## Mobile Optimization
+
+This website is not optimized for mobile viewing.
+
+Thank you for your understanding.
+
+
 ## Installation
 To install and run the website, follow these steps:
 
