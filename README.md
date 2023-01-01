@@ -7,9 +7,6 @@ This repository contains the source code for a website that allows users to brow
 
 This website is not optimized for mobile viewing.
 
-Thank you for your understanding.
-
-
 ## Installation
 To install and run the website, follow these steps:
 
