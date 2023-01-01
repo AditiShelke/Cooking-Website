@@ -40,5 +40,12 @@ If you would like to contribute to the development of this website, please follo
 - Create a pull request
 - We appreciate your help and look forward to reviewing your contribution!
 
+## Images
+
+- Image 1: Photo by (https://www.missmalini.com/2020/04/14/the-easiest-recipe-to-make-eggless-chocolate-brownies)
+- Image 2: Photo by [The Daring Gourmet](https://www.daringgourmet.com/homemade-teriyaki-sauce/)
+- Image 3: Photo by [](link to creator's website or profile)
+
+Note: All images used in this project are stored in the "images" folder and do not belong to me they are free to use, but please make sure to credit the creator as shown above 
 
 
