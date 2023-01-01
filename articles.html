@@ -4,6 +4,14 @@
  <title>articles</title>
  <link rel="stylesheet" type="text/css" href="articles.css">
  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script>
+  fetch("https://newsapi.org/v2/everything?q=cooking&sortBy=publishedAt&apiKey=af13081b68774adf981f98d9ecb26925")
+    .then(response => response.json())
+    .then(data => {
+      const headlines = data.articles.map(article => article.title);
+      document.getElementById("news").innerHTML = headlines.join(" | ");
+    });
+</script>
 </head>
 <nav>
   <div>
@@ -22,13 +30,20 @@
  </div>
  <div class="entry">
  <figure><img src="images/image.png.jpg" alt="Helianthus" />
-   <marquee><li>Nulla porta urna dapibus, ultricies ligula in, finibus neque</li> </marquee>
+   <marquee id="news"></marquee>
  <!-- <figcaption>Helianthus</figcaption> -->
  </figure>
  </div>
  <div class="entry">
  <figure><img src="images/image.png.jpg" alt="Passiflora" />
-  <marquee><li>Nulla porta urna dapibus, ultricies ligula in, finibus neque</li> </marquee>
+  <marquee> <ul>
+    data.articles.forEach(article => {
+      <li>
+        <h3>${article.title}</h3>
+        <p>${article.description}</p>
+      </li>
+    });
+  </ul> </marquee>
  <figcaption>Passiflora </figcaption>
  
  </figure>

@@ -1,120 +1,86 @@
-@import url("tables.css"); 
-    body {
-        margin: 0 auto;
-    font-family:'Copse',Arial, Verdana, sans-serif;
+body {
+    font-family: 'Copse', Arial, Verdana, sans-serif;
     font-size: 90%;
-    color: rgb(52, 34, 34);
-        background-image: linear-gradient(rgba(215,208,196,255),rgba(191,163,153,255),rgba(102,68,79,255));
-    /* background-color: #e38b8bd6; */
-    background-image:gradient(linear, 0% 0%, 0% 100%, from(#926c6c78), to(#6c4c4c));
-}
-    li {
+    color: #342222;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(-45deg, #6e1111c9, #db9c8173, #fd9696);
+ }
+ 
+ @keyframes swing {
+    from {
+       transform: translate(0%, 0%);
+    }
+    to {
+       transform: translate(-50%, -50%);
+    }
+ }
+ 
+ li {
     /* list-style-image: url("images/image.png"); */
     line-height: 1.6em;
-}
-    table {
-    border-spacing: 0px;}
-    th, td {
+ }
+ 
+ table {
+    border-spacing: 0px;
+ }
+ 
+ th, td {
     padding: 5px 30px 5px 10px;
     border-spacing: 0px;
     font-size: 90%;
-    margin: 0px;}
-    th, td {
+    margin: 0px;
+ }
+ 
+ th, td {
     text-align: left;
     background-color: #6a485321;
-    border-top: 1px solid #432b2b;
-    border-left: 1px solid #432b2b;
-    border-right: 1px solid #432b2b;
-    border-bottom: 1px solid #432b2b;
-}
-    tr.head th {
-    color:  #d4c8cc;
-    background-color:rgba(104, 72, 72, 0.945);
-    border-top: 1px solid #432b2b;
-    border-left: 1px solid #432b2b;
-    border-right: 1px solid #432b2b;
+    border: 1px solid #432b2b;
+ }
+ 
+ tr.head th {
+    color: #d4c8cc;
+    background-color: rgba(104, 72, 72, 0.945);
+    border: 1px solid #432b2b;
     text-align: center;
     letter-spacing: 0.15em;
-}
-    td {
-    text-shadow: 1px 1px 1px  rgba(202, 176, 176, 0);}
-    tr.even td, tr.even th {
-    background-color:rgb(146, 108, 108) ;}
-    tr.head th:first-child {
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    border-top-left-radius: 5px;}
-    tr.head th:last-child {
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-right-radius: 5px;}
-    fieldset {
+ }
+ 
+ td {
+    text-shadow: 1px 1px 1px rgba(202, 176, 176, 0);
+ }
+ 
+ tr.even td,
+ tr.even th {
+    background-color: #926c6c;
+ }
+ 
+ tr.head th:first-child {
+    border-top-left-radius: 5px;
+ }
+ 
+ tr.head th:last-child {
+    border-top-right-radius: 5px;
+ }
+ 
+ fieldset {
     width: 310px;
     margin-top: 25px;
     border: 1px solid #f4f8eca8;
     line-height: 1.6em;
-}
-    legend {
-    font-style:italic;
+ }
+ 
+ legend {
+    font-style: italic;
     text-decoration: underline;
-    color:#402323;
-}
-    input[type="text"]
-     {
+    color: #402323;
+ }
+ 
+ input[type="text"] {
     width: 120px;
     border: 1px solid #281919ca;
     padding: 2px;
     outline: none;
-    
-}
-    input[type="text"]:focus,
-    input[type="text"]:hover {
-    background-color: #c2aaa0;
-    border: 1px solid #999;
-}
-    input[type="submit"] 
-    {
-    margin-top: 3px;
-    padding: 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: rgb(110, 46, 46);
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    z-index: -2;
-    box-shadow: 0px 1px 1px rgb(212, 182, 182);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-}
-    input[type="submit"]:hover
-     {
-    border: 1px solid #e5d1d1;
-    background-color:#ffffff;
-    color: #5b3c3c;
-    cursor: pointer;
-    
-}
-    .title {
-    float: left;
-    width: 160px;
-    clear: left;}
-    .submit {     
-    width: 310px; 
-    text-align: right;}
-  
-    blockquote {
-        float: right;
-        /* width: 275px;
-        font-size: 130%;
-        font-style: italic;
-        font-family: Georgia, Times, serif;
-        margin: 0px 0px 10px 10px;
-        padding: 10px; */
-     
-padding: 5px;
-        border-top: 1px solid #665544;
-        border-bottom: 1px solid #665544;}
+ }
+ 
+ 
