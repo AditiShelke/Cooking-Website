@@ -1,7 +1,9 @@
 # Welcome to the Cooking Website repository!
 
-## [Cooking Website](https://aditishelke.github.io/Cooking-Website/)
-This repository contains the source code for a website that allows users to browse cooking classes and recipes. The site includes an about page that provides information about the website.
+## [Check my page here](https://aditishelke.github.io/Cooking-Website/)
+This is a simple cooking website that I created as part of the foundations course on The Odin Project. The website includes a page to navigate to classes and register for a class, a recipe page, and a page that displays the instructions and ingredients for a specific recipe when clicked on. I used [HTML & CSS: Design and Build Web Sites
+Book by Jon Duckett
+] as a reference to guide me in the creation of this website.
 
 ## Mobile Optimization
 
