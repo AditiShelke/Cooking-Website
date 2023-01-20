@@ -6,6 +6,8 @@ This is a simple cooking website that I created as part of the foundations cours
 ## Mobile Optimization
 
 This website is not optimized for mobile viewing.
+![Screenshot (2)](https://user-images.githubusercontent.com/108284485/213641406-419dbe3f-491b-41e8-9898-b6abf13fb22c.png)
+
 
 ## Installation
 To install and run the website, follow these steps:
