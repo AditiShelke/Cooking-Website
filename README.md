@@ -1,7 +1,7 @@
 # Welcome to the Cooking Website repository!
 
 ## [Check my page here](https://aditishelke.github.io/Cooking-Website/)
-This is a simple cooking website that I created as part of the foundations course on The Odin Project. The website includes a page to navigate to classes and register for a class, a recipe page, and a page that displays the instructions and ingredients for a specific recipe when clicked on. And Girls Who Codes SIP PROGRAM as a reference to guide me in the creation of this website.
+This is a simple cooking website that I created as part of the foundations course on The Odin Project. The website includes a page to navigate to classes and register for a class, a recipe page, and a page that displays the instructions and ingredients for a specific recipe when clicked on. And Girls Who Codes SIP PROGRAM and  referenced various sources, such as tutorials,Book guide, to complete the projectas a reference to guide me in the creation of this website.
 
 ## Mobile Optimization
 
