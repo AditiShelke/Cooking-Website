@@ -1,29 +1,15 @@
 <?php
+$servername = "localhost";
+$username = "aditishelke";
+$password = "1234";
+$dbname = "cooking_webpage";
 
-// Connect to the MySQL database
-$host = "localhost";
-$dbname = "form_db";
-$conn = mysqli_connect($host, $dbname);
+// Create a connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
 // Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error($host, $form_db));
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-
-// Get data from HTML form
-$name = $_POST['name'];
-$email = $_POST['email'];
-$location = $_POST['location'];
-$member = $_POST['member'];
-
-// Insert data into MySQL database
-$sql = "INSERT INTO users ( name, email, location, member) VALUES ('$id','$name', '$email', '$location', '$member')";
-if (mysqli_query($conn, $sql)) {
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-}
-
-mysqli_close($conn);
-$sql = "SELECT * FROM `users`;";
-
+ echo "Connected successfully";
 ?>
