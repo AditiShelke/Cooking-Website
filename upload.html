@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Image Upload</title>
+   <style>
+      .image-grid {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+      }
+
+      .image-grid img {
+         max-width: 100%;
+         height: auto;
+
+      }
+      hr {
+  border: none;
+  border-top: 1px solid black;
+}
+
+   </style>
+   <script>
+      function handleFileUpload() {
+         var fileInput = document.getElementById('file-input');
+         var fileList = fileInput.files;
+
+         var imageGrid = document.getElementById('image-grid');
+
+         for (var i = 0; i < fileList.length; i++) {
+            var file = fileList[i];
+            var reader = new FileReader();
+
+            reader.onload = function (event) {
+               var image = document.createElement('img');
+               image.src = event.target.result;
+               image.alt = 'Uploaded Image';
+
+               imageGrid.appendChild(image);
+            }
+
+            reader.readAsDataURL(file);
+         }
+      }
+   </script>
+</head>
+
+<body>
+   <h1>Image Upload</h1>
+
+   <input type="file" id="file-input" accept="image/*" multiple>
+   <button onclick="handleFileUpload()">Upload</button>
+
+   <div id="image-grid" class="image-grid">
+      <!-- Uploaded images will be displayed here -->
+      <h1></h1>
+      <hr>
+         </div>
+
+</body>
+
+</html>
